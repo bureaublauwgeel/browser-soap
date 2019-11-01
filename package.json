@@ -1,21 +1,21 @@
 {
-  "name": "browser-soap",
+  "name": "@bureaublauwgeel/browser-soap",
   "version": "1.0.4",
   "description": "A minimal SOAP client in javascript, so tiny it even runs in browser",
   "engines": {
     "node": ">=0.8.0"
   },
-  "author": "Johniak <romaniakjan@gmail.com>",
+  "author": "Koen Klasing <info@bureaublauwgeel.nl>",
   "dependencies": {
     "node-xml": "1.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johniak/browser-soap.git"
+    "url": "git+ssh://git@github.com/bureaublauwgeel/browser-soap.git"
   },
   "main": "./index.js",
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "scripts": {
     "build": "bna -f index.js && uglifyjs index.fused.js -c -m > browser-soap-min.js && rm index.fused.js"
@@ -30,5 +30,10 @@
       "type": "MIT License",
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/bureaublauwgeel/browser-soap/pulls"
+  },
+  "homepage": "https://github.com/bureaublauwgeel/browser-soap#readme",
+  "license": "MIT"
 }
