@@ -1,9 +1,10 @@
+This module is a for of johniak/browser-soap to implement a solution for one of our clients, forcing every SOAP call over https and remove any port 80 used in URL's.
+
 This module lets you connect to web services using SOAP, in pure javascript, using node or browser.
 
 This module is forked from node module "tinysoap@1.0.2".  Specific changes are:
 
 * You don't need jQuery anymore
-
 
 Features (copied from soap@0.2.6 Readme.md):
 
